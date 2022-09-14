@@ -181,3 +181,38 @@ label{
 		transform: rotate(0deg)  scale(1.2)
 	}
 }
+
+/* media queries */
+@media (max-width:599px){
+    .card{
+        width: 60%;
+    }
+    #f1{
+        width: 80px;
+        margin-left: 170px;
+        margin-top: 17px;
+        padding: 2px;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .card{
+        width: 50%;
+    }
+}
+@media (min-width: 801px) and (max-width: 1200px){
+    .card{
+        width: 40%;
+    }
+    #f1{
+        margin-left: 150px;
+    }
+
+}
+@media (min-width: 1201px){
+    .card{
+        width: 23%;
+    }
+    #f1{
+        margin-left: 190px;
+    }
+}
