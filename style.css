@@ -186,6 +186,7 @@ label{
 @media (max-width:599px){
     .card{
         width: 80%;
+        margin-top: 50px;
     }
     #f1{
         width: 80px;
